@@ -9,7 +9,7 @@ using TARge20.Core.Domain;
 
 namespace TARge20.Data
 {
-    public class TARge20DbContext : IdentityDbContext
+    public class TARge20DbContext : DbContext
     {
 
         public TARge20DbContext(DbContextOptions<TARge20DbContext> options)
@@ -20,9 +20,13 @@ namespace TARge20.Data
         public DbSet<Employee> Employee { get; set; }
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Employee>().ToTable("Employee");
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Employee>().ToTable("Employee");
+
+
+        //    //modelBuilder.Entity<Employee>()
+        //    //    .HasKey(c => new { c.Id });
+        //}
     }
 }
