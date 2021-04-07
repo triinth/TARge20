@@ -18,15 +18,5 @@ namespace TARge20.Data
         // näide, kuidas teha, kui lisate domaini alla ühe objekti
         // migratsioonid peavad tulema siia libary-sse e TARge20.Data alla.
         public DbSet<Employee> Employee { get; set; }
-
-
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Employee>().ToTable("Employee");
-
-
-        //    //modelBuilder.Entity<Employee>()
-        //    //    .HasKey(c => new { c.Id });
-        //}
     }
 }
