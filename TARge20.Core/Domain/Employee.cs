@@ -12,17 +12,23 @@ namespace TARge20.Core.Domain
         public string LastName { get; set; }
 
         /// ESIMENE HINDELINE HARJUTUS
-        /// 
-        /// Teha Code First ja Database First Migration
-        /// Teha word dokumendile töökäik koos piltidega.
-        /// Kindlasti tahan näha MS SQL DB-st pilti enne migrationit ja peale seda.
+        /// Nõuded ja tegevus:
+        /// 1. Kui tahate, siis võite forkida minu projekti GitHubist ja läbi Sourcetree enda arvutisse tõmmata.
+        /// 2. See teeb teil teise hindelise ülesande tegemise lihtsamaks 
+        /// kuna siis on ainult vaja commitida ja pushida.
+        /// 3. Teha Code First ja Database First Migration
+        /// 4. Teha word dokumendile töökäik koos piltidega ja detailne. Mitte, et vajuta seda ja mina sinna ning siis on valmis. 
+        /// St, et kui mina hakkan teie õpetust jäljendama, siis ma saan selle tehtud.
+        /// 5. Kindlasti tahan näha MS SQL DB-st pilti enne migrationit ja peale seda.
 
 
         /// TEINE HINDELINE HARJUTUS
         ///
-        /// Teha Teie meeskonna poolt esitletud FIRMA DB-st objektide struktuur. Kui see on valmis, siis teha code first migration.
-        /// NB! Kasutate enda meeskonna poolt esitatud Firma DB ERD-d, aga igaüks teeb individuaalselt.
-        /// Kogu solution laadida GitHubi ja link valmis tööst saata mulle.
+        /// 1. Teha Teie meeskonna poolt esitletud FIRMA DB-st objektide struktuur. 
+        /// 2. Kui see on valmis, siis teha code first migration.
+        /// 3. NB! Kasutate enda meeskonna poolt esitatud FirmaDB ERD-d, aga igaüks teeb individuaalselt.
+        /// 4. Kogu solution laadida GitHubi ja link valmis tööst saata mulle.
+        /// 5. Järgmisena teha print screen MS SQL-s database diagrams all auto-genereeritud ERD-st pilt. See lisada sama projekti alla GitHubis.
 
         /// Mõned muutujad võivad olla ka NULL väärtusega ja need tuleb ära märkida
 
