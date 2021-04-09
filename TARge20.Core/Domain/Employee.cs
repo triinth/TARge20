@@ -14,21 +14,21 @@ namespace TARge20.Core.Domain
         /// ESIMENE HINDELINE HARJUTUS
         /// Nõuded ja tegevus:
         /// 1. Kui tahate, siis võite forkida minu projekti GitHubist ja läbi Sourcetree enda arvutisse tõmmata.
-        /// 2. See teeb teil teise hindelise ülesande tegemise lihtsamaks 
-        /// kuna siis on ainult vaja commitida ja pushida.
-        /// 3. Teha Code First ja Database First Migration
-        /// 4. Teha word dokumendile töökäik koos piltidega ja detailne. Mitte, et vajuta seda ja mina sinna ning siis on valmis. 
+        /// 2. See teeb teil teise hindelise ülesande tegemise lihtsamaks kuna siis on ainult vaja commitida ja pushida.
+        /// 3. Teha Code First ja Database First Migration.
+        /// 4. Teha word dokumendile töökäik koos piltidega ja detailne. Mitte, et vajuta seda ja mine sinna ning siis on valmis. 
         /// St, et kui mina hakkan teie õpetust jäljendama, siis ma saan selle tehtud.
         /// 5. Kindlasti tahan näha MS SQL DB-st pilti enne migrationit ja peale seda.
 
 
         /// TEINE HINDELINE HARJUTUS
         ///
-        /// 1. Teha Teie meeskonna poolt esitletud FIRMA DB-st objektide struktuur. 
-        /// 2. Kui see on valmis, siis teha code first migration.
+        /// 1. Teha Teie meeskonna poolt esitletud FirmaDB-st objektide struktuur.
+        /// 2. Kui see on valmis, siis teha code first migration. Vajadusel võib mitu migrationit teha.
         /// 3. NB! Kasutate enda meeskonna poolt esitatud FirmaDB ERD-d, aga igaüks teeb individuaalselt.
-        /// 4. Kogu solution laadida GitHubi ja link valmis tööst saata mulle.
-        /// 5. Järgmisena teha print screen MS SQL-s database diagrams all auto-genereeritud ERD-st pilt. See lisada sama projekti alla GitHubis.
+        /// 4. Järgida hea programmeerimise tava.
+        /// 5. Kogu solution laadida GitHubi ja link valmis tööst saata mulle.
+        /// 6. Järgmisena teha print screen MS SQL-s database diagrams all olevast auto-genereeritud ERD-st pilt. See lisada readMe.md failina sama projekti alla GitHubis.
 
         /// Mõned muutujad võivad olla ka NULL väärtusega ja need tuleb ära märkida
 
@@ -46,11 +46,12 @@ namespace TARge20.Core.Domain
         /// https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN&view=net-5.0
         /// https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection-1?redirectedfrom=MSDN&view=net-5.0
         /// https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?redirectedfrom=MSDN&view=net-5.0
-        /// 
+        /// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers#:~:text=Object%20initializers%20let%20you%20assign,by%20lines%20of%20assignment%20statements.
         /// </summary>
+        /// Kas peaks objekti initsialiseerima või mitte
         //public IEnumerable<Children> Childrens { get; set; } = new List<Children>();
-        //public ICollection<Children> Childrens1 { get; set; }
-        //public List<Children> Childrens2 { get; set; }
+        //public ICollection<Children> Childrens { get; set; }
+        //public List<Children> Childrens { get; set; }
     }
 
 
