@@ -19,6 +19,7 @@ namespace TARge20.Core.Domain
         /// 4. Teha word dokumendile töökäik koos piltidega ja detailne. Mitte, et vajuta seda ja mine sinna ning siis on valmis. 
         /// St, et kui mina hakkan teie õpetust jäljendama, siis ma saan selle tehtud.
         /// 5. Kindlasti tahan näha MS SQL DB-st pilti enne migrationit ja peale seda.
+        /// 6. Enne Database first migrationi tegemist tuleb ära kustutada Employee.cs ja TARge20DbContext.cs​ . Seda juhul, kui kasutad minu projektipõhja.
 
 
         /// TEINE HINDELINE HARJUTUS
