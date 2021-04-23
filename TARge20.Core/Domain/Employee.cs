@@ -20,6 +20,8 @@ namespace TARge20.Core.Domain
         /// St, et kui mina hakkan teie õpetust jäljendama, siis ma saan selle tehtud.
         /// 5. Kindlasti tahan näha MS SQL DB-st pilti enne migrationit ja peale seda.
         /// 6. Enne Database first migrationi tegemist tuleb ära kustutada Employee.cs ja TARge20DbContext.cs​ . Seda juhul, kui kasutad minu projektipõhja.
+        /// 7. Code first puhul peab tekkima Serverisse sinu loodud objekt(id), serverisse __EFMigrationsHistory objekt ja  Migrations kaust projekti.
+        /// 8. Database first puhul tekib projekti Models-i alla Serveris loodud objekt(id).
 
 
         /// TEINE HINDELINE HARJUTUS
