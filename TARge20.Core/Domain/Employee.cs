@@ -10,6 +10,27 @@ namespace TARge20.Core.Domain
         public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public DateTime Birthday { get; set; }
+        public string PersonalId { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
+        public DateTime WorkingSince { get; set; }
+        public DateTime WorkingUntil { get; set; }
+
+        public Guid JobTitleId { get; set; }
+        public JobTitle JobTitle { get; set; }
+
+        public Guid BranchOfficeId { get; set; }
+        public BranchOffice BranchOffice { get; set; }
+
+        public List<Child> Children { get; set; }
+        public List<HealthInspection> HealthInspections { get; set; }
+        public List<SickLeave> SickLeaves { get; set; }
+        public List<JobTitle> JobTitles { get; set; }
+        public List<Vacation> Vacations { get; set; }
+        public List<AccessPermition> AccessPermissions { get; set; }
+        public List<ItemToRent> ItemToRent { get; set; }
 
         /// ESIMENE HINDELINE HARJUTUS
         /// Nõuded ja tegevus:
